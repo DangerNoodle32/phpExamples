@@ -12,4 +12,4 @@ $carol->setImage('carol.jpg');
 $daniel->setImage('daniel.jpg');
 $eliza->setImage('eliza.jpg');
 
-$users = [$hanna, $benny,$carol, $daniel, $eliza ];
+$users = [$hanna, $benny,$carol, $daniel, $eliza];

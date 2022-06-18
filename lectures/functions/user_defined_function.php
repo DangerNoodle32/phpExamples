@@ -18,10 +18,14 @@
     // $names_array = fix_names_array("ROSHAN", "kaTEL");
     // echo $names_array[0];
 
-    function test($number) {     
+
+    function test($number) {  
+        if ($number <=20){
+            echo $number;
         test($number+1);
+        }
     }    
          
-    echo test(1);  
+    test(1);  
 
 ?>
