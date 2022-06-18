@@ -12,7 +12,7 @@
         protected $owner = " ";
 
          /****************************************************************/
-            // Insetead of using the setName method we can also make
+            // Instead of using the setName method we can also make
             // use of constructor to set the property name. 
         /****************************************************************/
         public function __construct($newName, $newOwner) {
