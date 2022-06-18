@@ -22,11 +22,12 @@
     echo "<br>";
     echo $dog->play();
 
-    echo "<h1>Cat </h1>";
-    /****************************************************/
+/****************************************************/
         // instanciating the class Dog
-        // Here dog1 is the object of class Dog
-    /****************************************************/
+        // Here dog is the object of class Dog
+/****************************************************/
+
+    echo "<h1>Cat </h1>";
     $cat = new Cat("Bummy", "Tobias");
     echo $cat->getName();
     echo "<br>";
