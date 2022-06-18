@@ -20,6 +20,9 @@
         public function play() {
             return $this->name . ' is climbing';
         }
+        public function __destruct(){
+            print "Destroying " . __CLASS__ . "\n";
+        }
         
     }
 

@@ -12,7 +12,12 @@
         // Here dog1 is the object of class Dog
     /***************************************************/
 
+    //values for the class Dog.php (Creating an object of class Dog)
     $dog = new Dog("Tommy", "Roshan", "1234");
+    
+    //$dog1 = object
+    //new Dog = passing values to its constructor which in this case is Dog.php
+    $dog1 = new Dog("Eddie", "Roshan", "12000");
     echo "<h1>Dog </h1>";
     echo $dog->getName();
     echo "<br>";
@@ -21,6 +26,17 @@
     echo $dog->getTag();
     echo "<br>";
     echo $dog->play();
+
+    echo "<br>";
+    echo "<br>";
+
+    echo $dog1->getName();
+    echo "<br>";
+    echo $dog1->getOwner();
+    echo "<br>";
+    echo $dog1->getTag();
+    echo "<br>";
+    echo $dog1->play();
 
 /****************************************************/
         // instanciating the class Dog
